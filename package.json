@@ -1,6 +1,6 @@
 {
   "name": "binodify",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Just following the trend !!",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "gulp build"
   },
   "author": "Rahul Bera",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "url": "https://github.com/bera5186/binodify.git"
   },
