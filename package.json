@@ -1,15 +1,26 @@
 {
-  "name": "@rahulbera21/binodify",
+  "name": "binodify",
   "version": "1.0.0",
   "description": "Just following the trend !!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
   },
   "author": "Rahul Bera",
   "license": "ISC",
   "repository": {
     "url": "https://github.com/bera5186/binodify.git"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.2",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
 }
