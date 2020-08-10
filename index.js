@@ -1,1 +1,3 @@
-console.log('Binod *_* !!')
+module.exports = function() {
+    console.log('Binod *_* !!')
+}
