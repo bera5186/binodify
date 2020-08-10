@@ -1,5 +1,5 @@
 {
-  "name": "binodify_",
+  "name": "@rahulbera21/binodify",
   "version": "1.0.0",
   "description": "Just following the trend !!",
   "main": "index.js",
@@ -8,5 +8,7 @@
   },
   "author": "Rahul Bera",
   "license": "ISC",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "repository": {
+    "url": "https://github.com/bera5186/binodify.git"
+  }
 }
