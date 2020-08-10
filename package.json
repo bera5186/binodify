@@ -10,5 +10,6 @@
   "license": "ISC",
   "repository": {
     "url": "https://github.com/bera5186/binodify.git"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
